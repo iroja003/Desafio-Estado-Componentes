@@ -1,3 +1,25 @@
+:root{
+  --color-fondo: #bed37b; 
+  --font-familia:'Roboto', sans-serif;
+  --color-primario:#124F88;
+  --color-secundario:#F7C331;
+  --color_texto-inverso:white;
+  --color-texto:black;
+  --color-fondo-menu:#E5E5E5;
+  --color-fondo-menu-celu: #3A4460;
+  --color-fondo-busqueda: #e7e7e7; 	
+  --color-formulario:white;
+  --color-hover:#949c7c;
+  --color-hover-li:#0d0e27;
+}
+
+*{
+box-sizing: border-box;  
+margin: 0;
+padding: 0;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +27,66 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-familia);
+  font-size: 18px;
+  min-height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container1{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  background-color: var(--color-primario);
+  color: var(--color_texto-inverso);
+  font-size: 12px;
+  justify-content:center;
+  align-items:center;
+}
+
+.formulario{
+  width: 100%;
+  height: 498px;
+  display: flex;
+  gap: 10px;
+  background-color: var(--color-fondo);
+  color: var(color_texto-inverso);
+  font-size: 12px;
+  justify-content: center;
+  align-items:center;
+}
+
+.footer{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  background-color: var(--color-primario);
+  color: var(--color_texto-inverso);
+  font-size: 12px;
+  justify-content:center;
+  align-items:flex-start;
+}
+
+label{
+  font-family: var(--font-familia);
+  color: var(--color-texto);
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.btn-inisec{
+  padding: 10px;
+}
+.perror {
+  font-size: 12px;
+  font-weight: bold;
+  color:red;
 }
