@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Desafio-Estado-Componentes
+En este desafío pondremos en práctica los conceptos aprendidos para controlar los estados
+de nuestros componentes en React. Para ello, un cliente nos solicita una aplicación en React
+que tenga un componente que tenga un input para el nombre y contraseña y otro
+componente que muestre un botón.
+Necesitan que el botón esté desactivado hasta que en el input de contraseña sea igual a
+“252525”.
+
+>>>>>>> 58e2e8b7ef5580c435a82f6d1b9a7157f57f6b83
